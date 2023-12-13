@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* General Instructions */
+
+
+.paragraph{
+    color: #83869A;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-left: 32px;
+}
+
+.title-course{
+    color: #13183F;
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 64px;
+    margin-left: 32px;
+}
+
+.course-description{
+    color: #83869a;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 500px;
+    line-height: 28px;
+    padding-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 32px;
+}
+
+.course-button{
+    color: #f74780;
+    background-color: transparent;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    border: none;
+    margin-bottom: 40px;
+    margin-left: 32px;
+}
+
+.course-button:hover{
+    color: #FFA7C3;
+    cursor: pointer;
+}
+
+/* Page Header */
+
+.page-container{
+    position: relative;
+    overflow: hidden;
+}
+
+.page-statistics{
+    position: absolute;
+    height: 400px;
+    width: auto;
+    top: -8%;
+    right: -20%;
+}
+
+.page-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-dark{
+    margin-top: 38.75px;
+    margin-left: 165.79px;
+}
+
+.button-header{
+    margin-top: 24px;
+    margin-right: 165px;
+    width: 167px;
+    height: 56px;
+    border-radius: 28px;
+    background: #13183F;
+    color: #FFF;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    border: none;
+}
+
+.button-header:hover{
+    background: #666CA3;
+    cursor: pointer;
+    border: none;
+}
+
+.introduction{
+    margin-top: 185.57px;
+    margin-left: 165px;
+    width: 457px;
+}
+
+.title-main{
+    color: #13183F;
+    font-family: Plus Jakarta Sans;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.pargraph-intro{
+    margin-top: 29px;
+}
+
+.button-middle{
+    margin-top: 40px;
+    margin-bottom: 226px;
+    width: 167px;
+    height: 63px;
+    border-radius: 31.5px;
+    background: var(--Gradient-1, linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%));
+    border: none;
+    color: var(--FFFFFF, #FFF);
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.button-middle:hover{
+    background: var(--Gradient-1-Hover, linear-gradient(0deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.50) 100%), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%));
+    cursor: pointer;
+    border: none;
+}
+
+
+.courses{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: linear-gradient(180deg, #FFF 0%, #F0F1FF 100%);
+    margin-bottom: 140px;
+}
+
+.message-container{
+    width: 350px;
+    height: 322px;
+    border-radius: 15px;
+    background: var(--Gradient-1, linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%));  
+}
+
+.message{
+    margin-top: 64px;
+    margin-left: 32px;
+    color: var(--FFFFFF, #FFF);
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+    box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+}
+
+.card-animation{
+    position: relative;
+    width: 350px;
+    height: 322px;
+    border-radius: 15px;
+    box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+}
+.animation-icon{
+    position: absolute;
+    top: -5%;
+}
+.card-design{
+    position: relative;
+    width: 350px;
+    height: 322px;
+    border-radius: 15px;
+    box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+}
+
+.design-icon{
+    position: absolute;
+    top: -5%;
+}
+
+.card-photography{
+    position: relative;
+    width: 350px;
+    height: 322px;
+    border-radius: 15px;
+    box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+}
+
+.photography-icon{
+    position: absolute;
+    top: -5%;
+}
+
+.card-crypto{
+    position: relative;
+    width: 350px;
+    height: 322px;
+    border-radius: 15px;
+    box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+}
+
+.crypto-icon{
+    position: absolute;
+    top: -5%;
+}
+
+.card-business{
+    position: relative;
+    width: 350px;
+    height: 322px;
+    border-radius: 15px;
+    box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+    margin-bottom: 180px;
+}
+
+.business-icon{
+    position: absolute;
+    top: -5%;
+}
+
+.page-footer{
+    display: flex;
+    justify-content: space-between;
+    background: #13183F;
+}
+
+.logo-light{
+    width: 111.168px;
+    height: 27.684px;
+    margin-top: 46.75px;
+    margin-left: 165.79px;
+    margin-bottom: 45.57px;
+}
+
+.button-footer{
+    border: none;
+    border-radius: 28px;
+    background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    margin-top: 32px;
+    margin-right: 165px;
+    margin-bottom: 32px;
+    color: #FFF;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    padding-left: 32px;
+    padding-top: 14px;
+    padding-right: 31px;
+    padding-bottom: 14px;
+}
+
+.button-footer:hover{
+    border-radius: 28px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.50) 100%), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    cursor: pointer;
+}
+
+    .mobile-image{
+        display: none;
+    }
+
+@media all and (max-width:600px) {
+    
+    .page-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .introduction{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    }
+
+    .mobile-image{
+        display: block;
+    }
+
+    .desktop-image{
+        display:none;
+    }
+
+}
